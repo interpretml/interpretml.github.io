@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		  <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167769335-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-167769335-1');
+		</script>
+		<!-- Required meta tags -->
+		<title>InterpretML</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta property="og:title" content="InterpretML">
+		<meta property="og:type" content="website"/>
+		<meta property="og:description" content="An open source toolkit for analyzing models and explaining behavior">
+		<meta property="og:image" content="images/interpretml-meta-image.jpg">
+		<meta property="og:url" content="http://interpretml.github.io/">
+		<link rel="shortcut icon" type="images/x-icon" href="images/interpretml-favicon.ico"/>
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+  	</head>
+  <body>
+
+  	<!-- NAVIGATION -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+    	<div class="container py-3">
+      		<img class="img-fluid nav-logo" src="images/nav-logo.png" alt="">
+      		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon icon-bar"></span>
+      		</button>
+      		<div class="collapse navbar-collapse" id="navbarResponsive">
+		        <ul class="navbar-nav ml-auto text-center">
+		          <li class="nav-item pr-0 pr-lg-4">
+		            <a class="nav-link" href="https://interpret.ml/docs/getting-started">Documentation
+		            </a>
+		          </li>
+		          <li class="nav-item pr-0 pr-lg-4">
+		            <a class="nav-link" href="#contribute">Contribute</a>
+		          </li>
+		          <li class="pl-1">
+		            <a class="navbar-btn" href="https://github.com/interpretml/interpret/">GitHub</a>
+		          </li>
+		        </ul>
+      		</div>
+    	</div>
+  	</nav>
+  	<!-- NAVIGATION -->
+
+  	<!-- MASTHEAD -->
+	<div class="container-fluid gradient">
+	    <div class="container masthead">
+	      	<div class="row align-items-center justify-content-center pt-5">
+		        <div class="col-12 col-lg-6 order-lg-1 text-center pb-4">
+		          <img class="img-fluid rounded" src="images/main-graphic.png" alt="">
+		        </div>
+	        	<div class="col-11 col-lg-6 order-lg-0">
+		          	<h1 class="text-center text-lg-left pb-2">Understand Models.<br>Build Responsibly.</h1>
+		          	<p class="white text-center text-lg-left pb-3">A toolkit to help understand models and enable responsible machine learning</p>
+			        <div class="row">
+			          	<div class="col-sm-12 text-center text-lg-left ">
+			          		<div class="row">
+			          			<div class="col-12 col-lg-4 pb-3">
+			            			<a class="masthead-btn text-center mr-0" href="https://github.com/interpretml/interpret/">Get Started</a>
+			            		</div>
+			            		<div class="col-12 col-lg-4">
+			           	 			<a class="masthead-btn-transparent text-center" href="https://github.com/interpretml/interpret#supported-techniques">Learn More</a>
+			           	 		</div>
+			           		</div>
+			          	</div>
+			        </div>
+	        	</div>
+	      	</div>
+		</div>	
+	    <div class="row">
+	      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+	        <polygon class="polygon" points="0,100 100,0 100,100"/>
+	      </svg>
+	    </div>
+  	</div>
+  	<!-- MASTHEAD -->
+
+  	<!-- MASTHEAD CARDS -->
+  	<div class="container-fluid masthead-cards">
+  		<div class="container">
+  			<div class="row pb-4">
+	  			<div class="col-md-4 mb-4">
+			      	<div class="card h-100 masthead-card">
+				        <img class="card-img-top-b mx-auto pt-5 active icon-blue" src="images/icon-01-blue.png">
+				        <img class="card-img-top-b mx-auto pt-5 inactive icon-white" src="images/icon-01.png">
+				        <div class="card-body">
+				          	<p class="card-text gray-text masthead-text text-center px-sm-0 px-lg-5 pb-4">State-of-the-art techniques to explain model behavior</p>
+				        </div>
+			      	</div>
+			    </div>
+	  			<div class="col-md-4 mb-4">
+			      	<div class="card h-100 masthead-card">
+				        <img class="card-img-top mx-auto pt-5 active icon-blue" src="images/icon-02-blue.png">
+				        <img class="card-img-top mx-auto pt-5 inactive icon-white" src="images/icon-02.png">
+				        <div class="card-body">
+				          	<p class="card-text gray-text masthead-text text-center pb-4">Comprehensive support for multiple types of models and algorithms, during training and inferencing</p>
+				        </div>
+			      	</div>
+			    </div>
+	  			<div class="col-md-4 mb-4">
+				     <div class="card h-100 masthead-card">
+				        <img class="card-img-top mx-auto pt-5 icon-blue" src="images/icon-03-blue.png">
+				        <img class="card-img-top mx-auto pt-5 inactive icon-white" src="images/icon-03.png">
+				        <div class="card-body px-md-5">
+				          	<p class="card-text gray-text masthead-text text-center px-sm-0 px-lg-5 pb-4">Community driven open source toolkit</p>
+				        </div>
+			      	</div>
+			    </div>
+			</div>
+  		</div>
+  	</div>
+  	<!-- MASTHEAD CARDS -->
+    
+    <!-- SECTION 1 -->
+	<div id="why-interpret" class="container-fluid section-1 pb-5">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-8 text-center pt-5 pb-3">
+			  		<h2 class="pb-5 dark">Why InterpretML?</h2>
+			  		<h3 class="pb-3 dark">Model Interpretability</h3>
+			  		<p class="gray-text">Model interpretability helps developers, data scientists and business stakeholders in the organization gain a comprehensive understanding of their machine learning models. It can also be used to debug models, explain predictions and enable auditing to meet compliance with regulatory requirements.</p>
+				</div>
+			</div>
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-7 mb-4">
+				    <div class="card h-100 card-blue py-4">
+				    	<div class="row align-items-center">
+				    		<div class="col-12 col-lg-1 my-auto ml-lg-5">
+					        	<img class="card-icon mx-auto d-block" src="images/icon-04-blue.png">
+					       	</div>
+					       	<div class="col-lg-9 align-self-center align-self-lg-start">
+						        <div class="card-body text-center text-lg-left">
+						        	<h6 class="dark">Ease of use</h6>
+						          	<p class="gray-text card-text">Access state-of-the-art interpretability techniques through an open unified API set and rich visualizations.</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+				<div class="col-12 col-lg-7 mb-4">
+				    <div class="card h-100 card-blue py-4">
+				    	<div class="row align-items-center">
+				    		<div class="col-12 col-lg-1 my-auto ml-lg-5">
+					        	<img class="card-icon mx-auto d-block" src="images/icon-05-blue.png">
+					       	</div>
+					       	<div class="col-lg-9 align-self-center align-self-lg-start">
+						        <div class="card-body text-center text-lg-left">
+						        	<h6 class="dark">Flexible and customizable</h6>
+						          	<p class="gray-text card-text">Understand models using a wide range of explainers and techniques using interactive visuals. Choose your algorithm and easily experiment with combinations of algorithms.</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+				<div class="col-12 col-lg-7 mb-4">
+				    <div class="card h-100 card-blue py-4">
+				    	<div class="row align-items-center">
+				    		<div class="col-12 col-lg-1 my-auto ml-lg-5">
+					        	<img class="card-icon mx-auto d-block" src="images/icon-06-blue.png">
+					       	</div>
+					       	<div class="col-lg-9 align-self-center align-self-lg-start">
+						        <div class="card-body text-center text-lg-left">
+						        	<h6 class="dark">Comprehensive capabilities</h6>
+						          	<p class="gray-text card-text">Explore model attributes such as performance, global and local features and compare multiple models simultaneously. Run what-if analysis as you manipulate data and view the impact on the model.</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- SECTION 1 -->
+
+	<!-- SECTION 2 -->
+	<div class="container-fluid section-2 pt-2">
+		<div class="container p-t-md">
+		    <div class="row justify-content-center">
+		    	<div class="col-12 col-lg-8 text-center pt-5 pb-4">
+			  		<h2 class="dark">Types of Models Supported</h2>
+			  	</div>
+		        <div class="col-md-6">
+		            <ul class="nav nav-tabs justify-content-between">
+		                <li class="nav-item text-center">
+		                	<a class="nav-link pb-4 active" data-toggle="tab" href="#currentPreferences">
+		                	<img class="box-icons pt-5 pb-4 mx-auto" src="images/box-icon-glass.svg">
+		                    <h5 class="gray-text">Glass-Box</h5></a>
+		                </li>
+		                <li class="nav-item text-center">
+		                	<a class="nav-link pb-4" data-toggle="tab" href="#alternative">
+		                	<img class="box-icons pt-5 pb-4 mx-auto" src="images/box-icon-black.svg">
+		                    <h5 class="gray-text">Black-Box</h5></a>
+		                </li>
+		            </ul>
+		            <div class="tab-content pt-4">
+		                <div role="tabpanel" class="tab-pane active" id="currentPreferences">
+		                    <ul class="list-group media-list media-list-stream pt-2">
+		                        <p class="gray-text text-left text-lg-center">Glass-box models are interpretable due to their structure. Examples include: Explainable Boosting Machines (EBM), Linear models, and decision trees.<br><br>Glass-box models produce lossless explanations and are editable by domain experts.</p>
+		                    </ul>
+		                </div>
+		                <div role="tabpanel" class="tab-pane fade in" id="alternative">
+		                    <ul class="list-group media-list media-list-stream">
+		                        <p class="gray-text text-left text-lg-center">Black-box models are challenging to understand, for example deep neural networks. Black-box explainers can analyze the relationship between input features and output predictions to interpret models. Examples include LIME and SHAP.</p>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<!-- SECTION 2 -->
+
+	<!-- SECTION 3 -->
+	<div class="container-fluid section-3 gradient-2 diagonal">
+		<div class="row">
+		  	<svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    	<polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
+		  	</svg>
+		</div>
+		<div class="container">	
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="white">Wide Variety of Techniques</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 text-center my-auto">
+					<img class="global element-image mx-auto img-fluid" src="images/interpretml-global.png">
+					<img class="local element-image mx-auto img-fluid" src="images/interpretml-local.png">
+					<img class="group element-image mx-auto img-fluid" src="images/interpretml-group.png">
+					<img class="feature element-image mx-auto img-fluid" src="images/interpretml-featureset.png">
+				</div>
+				<div class="col-12 col-lg-6 my-auto pt-5">
+					<div class="row">
+						<div class="col-12 col-lg-9 mx-auto">
+							<div class="technique-card tc-1 px-5 py-4 text-center text-lg-left white-card">
+								<h3 class="technique-text dark">Global</h3>
+								<p class="technique-text dark">Explore overall model behavior and find top features affecting model predictions using global feature importance</p>
+							</div>
+						</div>
+						<div class="col-12 col-lg-9 mx-auto">
+							<div class="technique-card tc-2 px-5 py-4 text-center text-lg-left">
+								<h3 class="technique-text white">Local</h3>
+								<p class="white technique-text">Explain an individual prediction and find features contributing to it using local feature importance</p>
+							</div>
+						</div>
+						<div class="col-12 col-lg-9 mx-auto">
+							<div class="technique-card tc-3 px-5 py-4 text-center text-lg-left">
+								<h3 class="technique-text white">Subset</h3>
+								<p class="white technique-text">Explain a subset of predictions using group feature importance</p>
+							</div>
+						</div>
+						<div class="col-12 col-lg-9 mx-auto">
+							<div class="technique-card tc-4 px-5 py-4 text-center text-lg-left">
+								<h3 class="technique-text white">Feature Impact</h3>
+								<p class="white technique-text">See how changes to input features impact predictions with techniques like what-if analysis</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		  	<svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    	<polygon fill="#FFFFFF" points="0,100 100,0 100,100"/>
+		  	</svg>
+		</div>
+	</div>
+	<div class="container-fluid section-4 pb-5">
+		<div class="container">
+		  	<div class="row justify-content-lg-center pb-5">
+		    	<div class="col-sm-12 col-lg-8 text-center">
+		      		<h2 class="pt-5 pb-2 dark">What You Can Do With InterpretML</h2>
+		    	</div>
+		  	</div>
+
+		  	<div class="row justify-content-lg-center py-3">
+		    	<div class="col-md-6">
+		      		<img class="img-fluid mx-auto ml-lg-0 interactive-visualization-icon" src="images/image-1.png" alt="">
+		    	</div>
+			    <div class="col-md-5 align-self-center pr-lg-5 pb-4">
+			      <h3 class="text-center text-lg-left pb-2 dark">Explore Your Data and Model Performance</h3>
+			      <li class="gray-text img-fluid check-icon">Understand how model performance changes for different subsets of data and compare multiple models</li>
+			      <li class="gray-text img-fluid check-icon">Explore model errors</li>
+			      <li class="gray-text img-fluid check-icon">Analyze dataset statistics and distributions</li>
+			    </div>
+		  	</div>
+
+		  	<div class="row justify-content-lg-center">
+			    <div class="col-md-5 align-self-center pl-lg-5 pb-4 order-2 order-md-1">
+			      	<h3 class="text-center text-lg-left pb-2 dark">Gain Model Understanding</h3>
+			      	<li class="img-fluid check-icon">Explore global and local explanations</li>
+			      	<li class="img-fluid check-icon">Filter data to observe global and local feature importance</li>
+			      	<li class="img-fluid check-icon">Run what-if analysis to see how model explanations change if you edit datapoints’ features</li>
+			    </div>
+			    <div class="col-md-6 order-1 order-md-2">
+			      	<img class="img-fluid mx-auto mr-lg-0 interactive-visualization-icon-2 pb-5" src="images/interactive-visualization-dashboard-icon.png" alt="">
+			    </div>
+		  	</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div>
+	<div class="container-fluid section-5 py-5">
+		<div class="container">
+			<div class="row justify-content-lg-center pb-5">
+				<div class="col-12 text-center">
+					<h2 class="dark">Who Can Benefit from InterpretML?</h2>
+				</div>
+			</div>
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-3 text-center text-lg-left">
+					<img class="img-fluid benefits-icons pb-4" src="images/icon-06.png">
+					<h3 class="dark pb-2">Data Scientists</h2>
+					<p class="gray-text">Understand models, debug or uncover issues and explain your model to other stakeholders.</p>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-left">
+					<img class="img-fluid benefits-icons pb-4" src="images/icon-07.png">
+					<h3 class="dark pb-2">Auditors</h2>
+					<p class="gray-text">Validate a model before it is deployed and audit it post-deployment.</p>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-left">
+					<img class="img-fluid benefits-icons pb-4" src="images/icon-08.png">
+					<h3 class="dark pb-2">Business Leaders</h2>
+					<p class="gray-text">Understand how models behave, in order to provide transparency about predictions to customers.</p>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-left">
+					<img class="img-fluid benefits-icons pb-4" src="images/icon-09.png">
+					<h3 class="dark pb-2">Researchers</h2>
+					<p class="gray-text">Easily integrate with new interpretability techniques and compare against other algorithms.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid section-6 diagonal">
+		<div class="row">
+		  	<svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    	<polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
+		  	</svg>
+		</div>
+		<div class="container">
+		  	<div class="row justify-content-lg-center">
+		    	<div class="col-sm-12 col-lg-6 text-center pb-5">
+		      		<h1 class="pt-5 pb-4">Getting Started</h1>
+		      		<a class="models-behavior-btn" href="https://github.com/interpretml/interpret/">Install InterpretML</a>
+		    	</div>
+		  	</div><!-- /.row --> 
+		</div><!-- /.container -->
+		<div  id="contribute" class="row">
+		  	<svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    	<polygon fill="#FFFFFF" points="0,100 100,0 100,100"/>
+		  	</svg>
+		</div>
+	</div>
+	<div class="container-fluid section-7">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-6 text-center">
+					<h2 class="dark pt-4 pb-3">Contribute to InterpretML</h2>
+					<p class="gray-text">We encourage you to join the effort and contribute feedback, algorithms, ideas and more, so we can evolve the toolkit together!</p>
+					<a class="contribute-btn" href="https://github.com/interpretml/interpret/blob/master/CONTRIBUTING.md">Contribute</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- SECTION 3 -->
+
+	<!-- FOOTER -->
+	<footer class="container-fluid page-footer pb-5">
+		<div class="row">
+		  	<svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    	<polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
+		  	</svg>
+		</div>
+	    <div class="container pt-5">
+	    	<div class="row pb-5">
+	    		<div class="col-12 col-lg-2 text-center text-lg-left pb-4 pb-md-0">
+	    			<h3 class="white">Resources</h3>
+	    		</div>
+	    		<div class="col-12 col-lg-4 text-center text-lg-left pt-1 pb-4 pb-md-0">
+	    			<p class="white footer-italic">Learn More About InterpretML</p>
+	    			<a href="https://interpret.ml/docs/getting-started">
+	    				<p class="white footer-bold">InterpretML documentation</p>
+	    			</a>
+	    			<a href="https://github.com/interpretml/interpret">
+	    				<p class="white footer-bold">Interpretability for Tabular Data</p>
+	    			</a>
+	    			<a href="https://github.com/interpretml/dice">
+	    				<p class="white footer-bold">Counterfactual Example Analysis</p>
+	    			</a>
+	    		</div>
+	    		<div class="col-12 col-lg-2 text-center text-lg-right pt-1">
+	    			<a href="mailto:interpret@microsoft.com">
+	    				<p class="white footer-bold">Contact Us</p>
+	    			</a>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+				<div class="col-12">
+					<div class="footer-line"></div>
+				</div>
+	    	</div>
+			<div class="row pt-5">
+				<div class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row">
+				  	<img class="img-fluid footer-logo" src="images/footer-logo.png" alt="">
+				</div>
+				<div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-md-start flex-column flex-md-row">
+					<p class="white copyright-text">Copyright © 2023 The InterpretML Contributors</p>
+				</div>
+				<div class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-end flex-column flex-md-row pt-3 pt-md-0">
+				    <a class="footer-btn-transparent text-center" href="https://github.com/interpretml/interpret/">GitHub</a>
+				</div>
+			</div>
+	    </div>
+	</footer>
+	<!-- FOOTER -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
