@@ -7,312 +7,312 @@
 
 
 <url>
-  <loc>http://interpret.ml</loc>
+  <loc>https://interpret.ml</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/</loc>
+  <loc>https://interpret.ml/docs/</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ExplainableBoostingClassifier.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ExplainableBoostingClassifier.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ExplainableBoostingRegressor.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ExplainableBoostingRegressor.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/LogisticRegression.html</loc>
+  <loc>https://interpret.ml/docs/python/api/LogisticRegression.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/LinearRegression.html</loc>
+  <loc>https://interpret.ml/docs/python/api/LinearRegression.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ClassificationTree.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ClassificationTree.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/RegressionTree.html</loc>
+  <loc>https://interpret.ml/docs/python/api/RegressionTree.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/merge_ebms.html</loc>
+  <loc>https://interpret.ml/docs/python/api/merge_ebms.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ShapKernel.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ShapKernel.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/LimeTabular.html</loc>
+  <loc>https://interpret.ml/docs/python/api/LimeTabular.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/PartialDependence.html</loc>
+  <loc>https://interpret.ml/docs/python/api/PartialDependence.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/MorrisSensitivity.html</loc>
+  <loc>https://interpret.ml/docs/python/api/MorrisSensitivity.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ShapTree.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ShapTree.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/RegressionPerf.html</loc>
+  <loc>https://interpret.ml/docs/python/api/RegressionPerf.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ROC.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ROC.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/PR.html</loc>
+  <loc>https://interpret.ml/docs/python/api/PR.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/ClassHistogram.html</loc>
+  <loc>https://interpret.ml/docs/python/api/ClassHistogram.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/Marginal.html</loc>
+  <loc>https://interpret.ml/docs/python/api/Marginal.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/DPExplainableBoostingClassifier.html</loc>
+  <loc>https://interpret.ml/docs/python/api/DPExplainableBoostingClassifier.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/DPExplainableBoostingRegressor.html</loc>
+  <loc>https://interpret.ml/docs/python/api/DPExplainableBoostingRegressor.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/link_func.html</loc>
+  <loc>https://interpret.ml/docs/python/api/link_func.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/inv_link.html</loc>
+  <loc>https://interpret.ml/docs/python/api/inv_link.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/measure_interactions.html</loc>
+  <loc>https://interpret.ml/docs/python/api/measure_interactions.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/debug_mode.html</loc>
+  <loc>https://interpret.ml/docs/python/api/debug_mode.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/show.html</loc>
+  <loc>https://interpret.ml/docs/python/api/show.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/show_link.html</loc>
+  <loc>https://interpret.ml/docs/python/api/show_link.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/set_show_addr.html</loc>
+  <loc>https://interpret.ml/docs/python/api/set_show_addr.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/get_show_addr.html</loc>
+  <loc>https://interpret.ml/docs/python/api/get_show_addr.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/preserve.html</loc>
+  <loc>https://interpret.ml/docs/python/api/preserve.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/shutdown_show_server.html</loc>
+  <loc>https://interpret.ml/docs/python/api/shutdown_show_server.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/init_show_server.html</loc>
+  <loc>https://interpret.ml/docs/python/api/init_show_server.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/status_show_server.html</loc>
+  <loc>https://interpret.ml/docs/python/api/status_show_server.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/set_visualize_provider.html</loc>
+  <loc>https://interpret.ml/docs/python/api/set_visualize_provider.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/api/get_visualize_provider.html</loc>
+  <loc>https://interpret.ml/docs/python/api/get_visualize_provider.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/ebm.html</loc>
+  <loc>https://interpret.ml/docs/ebm.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/lr.html</loc>
+  <loc>https://interpret.ml/docs/lr.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/dt.html</loc>
+  <loc>https://interpret.ml/docs/dt.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/shap.html</loc>
+  <loc>https://interpret.ml/docs/shap.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/lime.html</loc>
+  <loc>https://interpret.ml/docs/lime.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/pdp.html</loc>
+  <loc>https://interpret.ml/docs/pdp.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/msa.html</loc>
+  <loc>https://interpret.ml/docs/msa.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/dpebm.html</loc>
+  <loc>https://interpret.ml/docs/dpebm.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/hyperparameters.html</loc>
+  <loc>https://interpret.ml/docs/hyperparameters.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/ebm-internals-regression.html</loc>
+  <loc>https://interpret.ml/docs/ebm-internals-regression.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/ebm-internals-classification.html</loc>
+  <loc>https://interpret.ml/docs/ebm-internals-classification.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/ebm-internals-multiclass.html</loc>
+  <loc>https://interpret.ml/docs/ebm-internals-multiclass.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/framework.html</loc>
+  <loc>https://interpret.ml/docs/framework.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/deployment-guide.html</loc>
+  <loc>https://interpret.ml/docs/deployment-guide.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/installation-guide.html</loc>
+  <loc>https://interpret.ml/docs/installation-guide.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/debugging-guide.html</loc>
+  <loc>https://interpret.ml/docs/debugging-guide.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/faq.html</loc>
+  <loc>https://interpret.ml/docs/faq.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/interpretable-classification.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/interpretable-classification.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/interpretable-regression.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/interpretable-regression.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/interpretable-regression-synthetic.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/interpretable-regression-synthetic.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/explain-blackbox-classifiers.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/explain-blackbox-classifiers.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/explain-blackbox-regressors.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/explain-blackbox-regressors.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/merge-ebms.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/merge-ebms.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/custom-interactions.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/custom-interactions.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/differential-privacy.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/differential-privacy.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/group-importances.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/group-importances.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://interpret.ml/docs/python/examples/prototype-selection.html</loc>
+  <loc>https://interpret.ml/docs/python/examples/prototype-selection.html</loc>
   <lastmod>2024-03-16T10:21:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
